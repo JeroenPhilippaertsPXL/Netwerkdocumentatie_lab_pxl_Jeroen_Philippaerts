@@ -5,8 +5,7 @@ Netwerk configuratie voor R1
 service password-encryption
 security passwords min-length 5
 
-
-hostname R1
+<pre>hostname R1
 /n
 enable secret 5 class
 !
@@ -50,3 +49,5 @@ line vty 5 15
 password 7 cisco
 
 Netwerk configuratie voor SW1 en SW2
+</pre>
+
