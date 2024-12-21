@@ -1,6 +1,8 @@
 # Netwerkdocumentatie_lab_pxl_Jeroen_Philippaerts
 LAB opdracht pxl
 
+##Aandacht voor het makelijk maken van de gegevens is het best dit te bekijken in code formaat!!
+
 Netwerk configuratie voor R1 
 service password-encryption
 security passwords min-length 5
