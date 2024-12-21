@@ -3,7 +3,10 @@ LAB opdracht pxl
 
 
 
-<pre>service password-encryption
+<pre>
+Configuratie R1
+  
+service password-encryption
 security passwords min-length 5
 !
 hostname R1
@@ -49,5 +52,6 @@ transport input ssh
 line vty 5 15
 password 7 cisco
 
+  Configuratie SW1 en SW2
 </pre>
 
