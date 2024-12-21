@@ -4,9 +4,10 @@ LAB opdracht pxl
 Netwerk configuratie voor R1 
 service password-encryption
 security passwords min-length 5
-!
+
+
 hostname R1
-!
+/n
 enable secret 5 class
 !
 username jeroen secret 5 cisco
