@@ -1,12 +1,13 @@
 # Netwerkdocumentatie_lab_pxl_Jeroen_Philippaerts
 LAB opdracht pxl
 
-Netwerk configuratie voor R1 
-service password-encryption
-security passwords min-length 5
 
-<pre>hostname R1
-/n
+
+<pre>service password-encryption
+security passwords min-length 5
+!
+hostname R1
+!
 enable secret 5 class
 !
 username jeroen secret 5 cisco
@@ -48,6 +49,5 @@ transport input ssh
 line vty 5 15
 password 7 cisco
 
-Netwerk configuratie voor SW1 en SW2
 </pre>
 
